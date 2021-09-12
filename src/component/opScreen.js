@@ -1,11 +1,11 @@
 
 import OpRow from './opRow.js';
 
-const Screen = () => {
+const Screen = (props) => {
     return (
         <div>
-            <OpRow />
-            <OpRow />
+            <OpRow value = {props.question}/>
+            <OpRow value = {props.answer}/>
         </div>
     )
 }

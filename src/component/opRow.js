@@ -1,8 +1,8 @@
 
-const OpRow = () => {
+const OpRow = (props) => {
     return (
         <div>
-            <input type="text" readOnly />
+            <input type="text" readOnly value={props.value}/>
         </div>
     )
 }
