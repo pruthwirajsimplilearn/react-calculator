@@ -26,10 +26,10 @@ class App extends React.Component {
           catch (err) {
             this.setState({ answer: "Math Error" });
           }
-          if (ans === undefined){
+          if (ans === undefined) {
             this.setState({ answer: "Math Error" });
           }
-          else{
+          else {
             this.setState({ answer: ans, question: '' });
           }
           break;
@@ -48,7 +48,7 @@ class App extends React.Component {
       }
 
       default: {
-        this.setState({ question: this.state.question += value })
+        this.setState({ answer:"", question: this.state.question += value })
         break;
       }
     }
@@ -58,7 +58,7 @@ class App extends React.Component {
     return (
       <div className="frame">
         <div className="mainCalc">
-          <Screen question={this.state.question} answer={this.state.answer}/>
+          <Screen question={this.state.question} answer={this.state.answer} />
           <div className="button-row">
             <Button name={'Clear'} handleClick={this.handleClick} />
             <Button name={'Delete'} handleClick={this.handleClick} />
