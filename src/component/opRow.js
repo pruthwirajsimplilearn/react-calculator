@@ -1,8 +1,12 @@
 
 const OpRow = (props) => {
     return (
-        <div>
-            <input type="text" readOnly value={props.value}/>
+        <div className="srow">
+            <input 
+                type="text" 
+                readOnly 
+                value={props.value}
+                placeholder={props.placeholder}/>
         </div>
     )
 }

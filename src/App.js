@@ -3,6 +3,8 @@ import React from 'react';
 import Screen from './component/opScreen';
 import Button from './component/button';
 
+import './App.css';
+
 class App extends React.Component {
   constructor() {
     super();
