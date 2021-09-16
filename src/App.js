@@ -61,33 +61,35 @@ class App extends React.Component {
       <div className="frame">
         <div className="mainCalc">
           <Screen question={this.state.question} answer={this.state.answer} />
-          <div className="button-row">
-            <Button name={'Clear'} handleClick={this.handleClick} />
-            <Button name={'Delete'} handleClick={this.handleClick} />
-            <Button name={'.'} handleClick={this.handleClick} />
-            <Button name={'/'} handleClick={this.handleClick} />
-          </div>
-          <div className="button-row">
-            <Button name={'7'} handleClick={this.handleClick} />
-            <Button name={'8'} handleClick={this.handleClick} />
-            <Button name={'9'} handleClick={this.handleClick} />
-            <Button name={'*'} handleClick={this.handleClick} />
-          </div>
-          <div className="button-row">
-            <Button name={'4'} handleClick={this.handleClick} />
-            <Button name={'5'} handleClick={this.handleClick} />
-            <Button name={'6'} handleClick={this.handleClick} />
-            <Button name={'-'} handleClick={this.handleClick} />
-          </div>
-          <div className="button-row">
-            <Button name={'1'} handleClick={this.handleClick} />
-            <Button name={'2'} handleClick={this.handleClick} />
-            <Button name={'3'} handleClick={this.handleClick} />
-            <Button name={'+'} handleClick={this.handleClick} />
-          </div>
-          <div className="button-row">
-            <Button name={'0'} handleClick={this.handleClick} />
-            <Button name={'='} handleClick={this.handleClick} />
+          <div className="subMainCalc">
+            <div className="button-row">
+              <Button name={'Clear'} handleClick={this.handleClick} />
+              <Button name={'Delete'} handleClick={this.handleClick} />
+              <Button name={'.'} handleClick={this.handleClick} />
+              <Button name={'/'} handleClick={this.handleClick} />
+            </div>
+            <div className="button-row">
+              <Button name={'7'} handleClick={this.handleClick} />
+              <Button name={'8'} handleClick={this.handleClick} />
+              <Button name={'9'} handleClick={this.handleClick} />
+              <Button name={'*'} handleClick={this.handleClick} />
+            </div>
+            <div className="button-row">
+              <Button name={'4'} handleClick={this.handleClick} />
+              <Button name={'5'} handleClick={this.handleClick} />
+              <Button name={'6'} handleClick={this.handleClick} />
+              <Button name={'-'} handleClick={this.handleClick} />
+            </div>
+            <div className="button-row">
+              <Button name={'1'} handleClick={this.handleClick} />
+              <Button name={'2'} handleClick={this.handleClick} />
+              <Button name={'3'} handleClick={this.handleClick} />
+              <Button name={'+'} handleClick={this.handleClick} />
+            </div>
+            <div className="button-row">
+              <Button name={'0'} handleClick={this.handleClick} />
+              <Button name={'='} handleClick={this.handleClick} />
+            </div>
           </div>
         </div>
       </div>

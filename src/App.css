@@ -10,12 +10,19 @@
 	margin:0px;
 	padding:0px;
 	border-radius:0px;
-	box-sizing: border-box;
+	box-sizing: border-box;	
+}
+
+.subMainCalc{
+	width: 400px;
+	display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 input[type='button']{
 	margin-left: 2px;
-	width: 100px;
+	width: 24%;
 	background: #607260;
 	border: 3px solid rgb(85, 78, 78);
 	border-radius:5px;
@@ -37,7 +44,7 @@ input[type='button']:active{
 }
 
 .srow input{
-width: 400px;
+	width: 400px;
 	background: #ddd;
 	border: 3px solid #607260;
 	border-radius:5px;
